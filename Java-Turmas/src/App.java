@@ -10,6 +10,9 @@ public class App {
         System.out.println(turma1.getInfoTurma());
 
         Aluno aluno1 = new Aluno();
+        aluno1 = new Aluno("AL12345", "Maria", "Silva", 2005, turma1);
+        System.out.println(aluno1.getNomeCompleto());   
+        System.out.println(aluno1.getIdade());
 
     }
 }

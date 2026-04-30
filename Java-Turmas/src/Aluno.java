@@ -61,7 +61,7 @@ public class Aluno {
                 + ", anoNascimento=" + anoNascimento + ", turma=" + turma + "]";
     }
 
-    public String getNomeCompleto(String nomeProprio, String nomeApelido){
+    public String getNomeCompleto(){
         return  this.nomeProprio + this.nomeApelido;
     }
     public int getIdade() {
