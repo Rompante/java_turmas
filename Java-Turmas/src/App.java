@@ -13,6 +13,12 @@ public class App {
         aluno1 = new Aluno("AL12345", "Maria", "Silva", 2005, turma1);
         System.out.println(aluno1.getNomeCompleto());   
         System.out.println(aluno1.getIdade());
-
+        Aluno aluno2 = new Aluno("AL54321", "João", "Pereira", 2003, turma1);
+        System.out.println(aluno2.getNomeCompleto());
+        System.out.println(aluno2.getIdade());
+        Aluno aluno3 = new Aluno("AL67890", "Ana", "Costa", 2004, turma1);
+        System.out.println(aluno3.getNomeCompleto());
+        System.out.println(aluno3.getIdade());  
     }
 }
+    
